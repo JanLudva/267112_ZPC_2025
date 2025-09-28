@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ZPC 2025 on ZPC</title>
-    <link>https://example.org/</link>
-    <description>Recent content in ZPC 2025 on ZPC</description>
+    <title>Menší projekty on ZPC</title>
+    <link>https://example.org/smaller-projects/</link>
+    <description>Recent content in Menší projekty on ZPC</description>
     <generator>Hugo</generator>
     <language>cz-cs</language>
     <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>O mne</title>
-      <link>https://example.org/about/</link>
-      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/about/</guid>
-      <description>&lt;p&gt;Ahoj, jmenuji se Jan a studuji druhý ročník konstrukčního inženýrství na FSI v Brně. Během studia se věnuji různým inženýrským disciplínám, například 3D tisku a základům elektrotechniky, které jsou pro tento projekt klíčové.&lt;/p&gt;&#xA;&lt;p&gt;Mimo školu se zajímám o sport, tanec a hudbu – a právě hra na elektrickou kytaru mě inspirovala k výběru tématu mého projektu, který se v průběhu semestru pokusím realizovat.&lt;/p&gt;</description>
-    </item>
+    <atom:link href="https://example.org/smaller-projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>O projektu 2</title>
       <link>https://example.org/smaller-projects/project2/</link>
@@ -42,13 +35,6 @@
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://example.org/smaller-projects/project5/</guid>
       <description>&lt;p&gt;5&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Projekt</title>
-      <link>https://example.org/project/</link>
-      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/project/</guid>
-      <description>&lt;p&gt;Víceosý kytarový pedál&lt;/p&gt;&#xA;&lt;p&gt;Cílem mého projektu je navrhnout digitální multiefektový pedál, který kytaristovi umožní pohodlně ovládat více různých modulací zvuku současně.&#xA;Hráč na kytaru tak získá lepší prostředky pro své hudební vyjádření a zároveň sníží počet efektů potřebných pro hraní.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tvorba webového portfolia </title>

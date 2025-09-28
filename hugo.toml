@@ -2,3 +2,32 @@ baseURL = 'https://example.org/'
 languageCode = 'cz-cs'
 title = 'ZPC'
 theme = 'ananke'
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "O mne"
+    url = "/about/"
+    weight = 10
+
+    [[menu.main]]
+    identifier = "project"
+    name = "Projekt"
+    url = "/project/"
+    weight = 20
+
+    [[menu.main]]
+  identifier = "smaller-projects"
+  name = "Dílčí projekty"
+  url = "/smaller-projects/"
+  weight = 30
+  
+  [[menu.main]]
+  identifier = "smaller-projects"
+  name = "Dílčí projekty"
+  url = "/smaller-projects/"
+  weight = 30
+  
+  
