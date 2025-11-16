@@ -20,3 +20,32 @@ Zajímavější částí projektu byl program. Při tvorbě kódu jsem se snaži
 Projekt svůj cíl splnil. Seznámil jsem se se základy elektrických obvodů a vyzkoušel si navrhnout i realizovat vlastní jednoduché zařízení.
 
 {{< figure src="/images/elektro_funkcni.png" caption="Hra" >}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

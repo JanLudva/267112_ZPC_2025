@@ -17,3 +17,31 @@ Navrhl jsem tedy 3D model vačkového mechanismu, který zajišťuje, že tučň
 Při řešení projektu jsem si tak mohl vyzkoušet celý proces návrhu, výroby a kompletace modelu – od prvního nápadu až po hotový funkční produkt.
 
 {{< figure src="/images/3D_hotovson.jpg" caption="Hotový model" >}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

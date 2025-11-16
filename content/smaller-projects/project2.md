@@ -21,3 +21,32 @@ Nejdříve jsem vytvořil 3D model ovečky, který jsem následně převedl do 2
 {{< figure src="/images/ovečky_2.jpg" caption="Hotové kartonové ovečky" >}}
 
 Jak můžete vidět, tak projekt dopadl úspěšně – dvě ovečky teď krásně zdobí můj pokoj.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

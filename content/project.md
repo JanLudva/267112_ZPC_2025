@@ -26,3 +26,32 @@ Víceosý kytarový pedál
 Cílem mého projektu je navrhnout a sestavit digitální multiefektový pedál, který umožní kytaristovi ovládat více parametrů zvuku současně a plynule — a to přímo během hraní.
 
 Mechanické tělo pedálu funguje na principu joysticku, který hráč ovládá nohou. Pohyby joysticku v osách X a Y jsou snímány a posílány do řídicí jednotky (Arduina). Ta následně podle těchto hodnot digitálně upravuje zvuk, který putuje z kytary do komba.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
