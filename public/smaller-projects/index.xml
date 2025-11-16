@@ -9,39 +9,39 @@
     <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://example.org/smaller-projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>O projektu 2</title>
+      <title>2D Grafika a Řezání</title>
       <link>https://example.org/smaller-projects/project2/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://example.org/smaller-projects/project2/</guid>
-      <description>&lt;p&gt;2&lt;/p&gt;</description>
+      <description>&lt;p&gt;Cílem druhého zadání v rámci ZPC bylo seznámit se s tvorbou 2D grafiky a její realizací.&lt;/p&gt;&#xA;&lt;p&gt;Začali jsme ukázkou vektorové grafiky a vyzkoušeli si, jak převést obrázek z papírové do digitální formy. Nakonec jsme ho i vyřezali na vinylové řezačce.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://example.org/images/s%C3%BDr.jpg&#34;&#xA;    alt=&#34;Ukázka vyřezaného sýru&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Ukázka vyřezaného sýru&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Dalším strojem, který jsme si vyzkoušeli, byla laserová řezačka. Absolvovali jsme krátké školení, kde jsme se naučili jak s ní pracovat a jaké materiály lze řezat nebo gravírovat.&#xA;Abychom si tyto znalosti prakticky ověřili, dostali jsme za úkol navrhnout a vyřezat libovolnou kartonovou stavebnici.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>O projektu 3</title>
+      <title>3D modelování a tisk</title>
       <link>https://example.org/smaller-projects/project3/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://example.org/smaller-projects/project3/</guid>
-      <description>&lt;p&gt;3&lt;/p&gt;</description>
+      <description>&lt;p&gt;Další z miniprojektů byl zaměřený na tvorbu 3D modelů a 3D tisk – dvě zásadní technologie pro rychlé prototypování.&#xA;Výuka opět kombinovala teorii a praxi. Vyzkoušeli jsme si tvorbu modelů, přípravu dat v různých softwarech a následně jsme absolvovali školení pro práci s 3D tiskárnou.&lt;/p&gt;&#xA;&lt;p&gt;Nakonec jsme dostali malé zadání, abychom si mohli všechny nové znalosti vyzkoušet prakticky.&#xA;Cílem bylo vytvořit jednoduchý mechanismus na ruční pohon s jedním uložením s vůlí a jedním uložením s přesahem – a přitom spotřebovat maximálně 100 gramů filamentu.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>O projektu 4</title>
+      <title>3D Skenování</title>
       <link>https://example.org/smaller-projects/project4/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://example.org/smaller-projects/project4/</guid>
-      <description>&lt;p&gt;4&lt;/p&gt;</description>
+      <description>&lt;p&gt;Čtvrtý z miniprojektů byl zaměřený na 3D skenování.&#xA;Postup byl podobný jako u předchozích projektů – nejprve jsme si vysvětlili, jak technologie skenování funguje, kde se používá a jaké má možnosti. Poté jsme si ji sami prakticky vyzkoušeli.&lt;/p&gt;&#xA;&lt;p&gt;Každý z nás si vylosoval objekt, který měl pro cvičení naskenovat.&lt;/p&gt;&#xA;&lt;p&gt;Mým úkolem byla tato členitá plastová váza.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://example.org/images/Vaza_real.png&#34;&#xA;    alt=&#34;Váza&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Váza&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;figure&gt;&lt;img src=&#34;https://example.org/images/V%C3%A1za_s_m%C4%9B%C5%99en%C3%ADm.png&#34;&#xA;    alt=&#34;Váza - měření&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Váza - měření&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Před samotným skenováním bylo nutné vázu oblepit reflexními body, aby se skener dokázal lépe zorientovat v jejím složitém povrchu.&#xA;Samotný proces skenování už pak proběhl bez problémů.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>O projektu 5</title>
+      <title>Elektrotechnika a řízení</title>
       <link>https://example.org/smaller-projects/project5/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://example.org/smaller-projects/project5/</guid>
-      <description>&lt;p&gt;5&lt;/p&gt;</description>
+      <description>&lt;p&gt;Poslední miniprojekt sloužil jako seznámení se se základy elektrotechniky a mikrokontrolérů.&#xA;Během výuky jsme absolvovali několik přednášek a cvičení, na kterých jsme se postupně naučili pracovat s nejčastěji používanými součástkami, poznali jejich zapojení a využití. Poté jsme se dostali k mikrokontrolérům – k tomu, jak fungují a k čemu je lze využít.&#xA;Vše jsme si samozřejmě i prakticky vyzkoušeli.&lt;/p&gt;&#xA;&lt;p&gt;Na závěr jsme dostali zadání: vytvořit vlastní jednoduchý projekt s využitím Arduina a dostupných komponent, abychom si ověřili a upevnili nové znalosti.&#xA;Já jsem se rozhodl vytvořit jednoduchou postřehovou hru, jejímž cílem je co nejrychleji zmáčknout tlačítko odpovídající rozsvícené diodě.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tvorba webového portfolia </title>
       <link>https://example.org/smaller-projects/project1/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://example.org/smaller-projects/project1/</guid>
-      <description>&lt;p&gt;1&lt;/p&gt;</description>
+      <description>&lt;p&gt;Prvním úkolem, který mě v rámci předmětu ZPC čekal, byla tvorba webových stránek.&#xA;Proč právě web? Protože onlineblog je v dnešní době nejlepší způsob, jak dokumentovat své projekty a vytvořit si pořádné a hlavně snadno dostupné portfolio, kde mohu popsat vše, co jsem během semestru zvládl.&lt;/p&gt;&#xA;&lt;p&gt;A jak to celé funguje v praxi?&#xA;Web využívá Hugo – generátor statických stránek založený na HTML a dalších jazycích. Výhodou tohoto přístupu je jednoduchost: já pouze píšu texty a přidávám obrázky, zatímco o samotnou kompilaci webu se stará Hugo.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

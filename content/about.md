@@ -1,7 +1,7 @@
 ---
 date : '2025-08-19'
 draft : false
-title : 'O mne'
+title : 'O mně'
 ---
 
 Ahoj, jmenuji se Jan a studuji druhý ročník konstrukčního inženýrství na FSI v Brně. Během studia se věnuji různým inženýrským disciplínám, například 3D tisku a základům elektrotechniky, které jsou pro tento projekt klíčové.

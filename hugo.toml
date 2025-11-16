@@ -8,7 +8,7 @@ theme = 'ananke'
 
   [[menu.main]]
     identifier = "about"
-    name = "O mne"
+    name = "O mně"
     url = "/about/"
     weight = 10
 
