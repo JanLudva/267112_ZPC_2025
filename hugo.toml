@@ -2,8 +2,11 @@ baseURL = 'https://JanLudva.github.io/267112_ZPC_2025/'
 languageCode = 'cz-cs'
 title = 'ZPC'
 theme = 'ananke'
-relativeURLs = true
-canonifyURLs = false
+# Use absolute/canonical URLs so assets (CSS/JS/images) reference the site root
+# on GitHub Pages. Relative URLs caused paths like "./267112_ZPC_2025/..." which
+# broke loading of the theme CSS/JS when the site is served from the project path.
+relativeURLs = false
+canonifyURLs = true
 publishDir = "public"
 
 
