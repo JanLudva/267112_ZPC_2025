@@ -10,7 +10,7 @@ Vše jsme si samozřejmě i prakticky vyzkoušeli.
 Na závěr jsme dostali zadání: vytvořit vlastní jednoduchý projekt s využitím Arduina a dostupných komponent, abychom si ověřili a upevnili nové znalosti.
 Já jsem se rozhodl vytvořit jednoduchou postřehovou hru, jejímž cílem je co nejrychleji zmáčknout tlačítko odpovídající rozsvícené diodě.
 
-{{< figure src="/images/Elektro_zapojení_1.png" caption="Schéma zapojení hry" >}}
+{{< figure src="/images/Elektro_zapojeni_1.png" caption="Schéma zapojení hry" >}}
 
 Zapojení hry není nijak složité – jde v podstatě jen o systém diod, tlačítek a rezistorů.
 Zajímavější částí projektu byl program. Při tvorbě kódu jsem se snažil ho co nejvíce optimalizovat – využíval jsem cykly, podmínky a funkce tak, aby byl přehledný, stručný a v případě potřeby snadno rozšiřitelný.

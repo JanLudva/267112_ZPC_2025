@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://JanLudva.github.io/267112_ZPC_2025/smaller-projects/project2/</loc><lastmod>2025-08-19T00:00:00+00:00</lastmod></url><url><loc>https://JanLudva.github.io/267112_ZPC_2025/smaller-projects/project3/</loc><lastmod>2025-08-19T00:00:00+00:00</lastmod></url><url><loc>https://JanLudva.github.io/267112_ZPC_2025/smaller-projects/project5/</loc><lastmod>2025-08-19T00:00:00+00:00</lastmod></url><url><loc>https://JanLudva.github.io/267112_ZPC_2025/smaller-projects/</loc><lastmod>2025-08-19T00:00:00+00:00</lastmod></url><url><loc>https://JanLudva.github.io/267112_ZPC_2025/about/</loc><lastmod>2025-08-19T00:00:00+00:00</lastmod></url><url><loc>https://JanLudva.github.io/267112_ZPC_2025/project/</loc><lastmod>2025-08-19T00:00:00+00:00</lastmod></url><url><loc>https://JanLudva.github.io/267112_ZPC_2025/smaller-projects/project1/</loc><lastmod>2025-08-19T00:00:00+00:00</lastmod></url><url><loc>https://JanLudva.github.io/267112_ZPC_2025/</loc><lastmod>2025-08-19T00:00:00+00:00</lastmod></url><url><loc>https://JanLudva.github.io/267112_ZPC_2025/smaller-projects/project4/</loc></url><url><loc>https://JanLudva.github.io/267112_ZPC_2025/categories/</loc></url><url><loc>https://JanLudva.github.io/267112_ZPC_2025/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/267112_ZPC_2025/smaller-projects/project2/</loc>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/267112_ZPC_2025/smaller-projects/project3/</loc>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/267112_ZPC_2025/smaller-projects/project5/</loc>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/267112_ZPC_2025/smaller-projects/</loc>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/267112_ZPC_2025/about/</loc>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/267112_ZPC_2025/project/</loc>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/267112_ZPC_2025/smaller-projects/project1/</loc>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/267112_ZPC_2025/</loc>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/267112_ZPC_2025/smaller-projects/project4/</loc>
+  </url><url>
+    <loc>http://localhost:1313/267112_ZPC_2025/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/267112_ZPC_2025/tags/</loc>
+  </url>
+</urlset>
