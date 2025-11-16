@@ -2,7 +2,8 @@ baseURL = 'https://JanLudva.github.io/267112_ZPC_2025/'
 languageCode = 'cz-cs'
 title = 'ZPC'
 theme = 'ananke'
-relativeURLs = false
+relativeURLs = true
+canonifyURLs = false
 publishDir = "public"
 
 
