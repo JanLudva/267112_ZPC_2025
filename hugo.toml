@@ -1,7 +1,9 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://JanLudva.github.io/267112_ZPC_2025/'
 languageCode = 'cz-cs'
 title = 'ZPC'
 theme = 'ananke'
+relativeURLs = false
+publishDir = "public"
 
 
 [menu]
