@@ -13,7 +13,7 @@ Hotový web je následně nahraný na GitHub, kde je volně dostupný veřejnost
 
 No a výsledek tohoto projektu právě sami vidíte!
 
-{{< figure src="/images/kód.png" caption="Ukázka kódu" >}}
+{{< figure src="/images/kod.png" caption="Ukázka kódu" >}}
 
 
 
