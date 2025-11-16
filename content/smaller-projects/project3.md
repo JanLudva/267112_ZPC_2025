@@ -17,10 +17,13 @@ Navrhl jsem tedy 3D model vačkového mechanismu, který zajišťuje, že tučň
 Při řešení projektu jsem si tak mohl vyzkoušet celý proces návrhu, výroby a kompletace modelu – od prvního nápadu až po hotový funkční produkt.
 
 {{< figure src="/images/3D_hotovson.jpg" caption="Hotový model" >}}
-<!-- Embedded video: tucnak_video -->
+<!-- Embedded video: tucnak_video (replaced iframe with native video player) -->
 ### Video — tučňák
 
-<iframe src="/Tucnak_video.html" width="100%" height="480" frameborder="0" allowfullscreen></iframe>
+<video controls width="100%" height="480">
+	<source src="/images/tucnak_video.mp4" type="video/mp4">
+	Your browser does not support the video tag. You can <a href="/images/tucnak_video.mp4">download the video</a> instead.
+</video>
 
 
 
