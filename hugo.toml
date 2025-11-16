@@ -37,3 +37,11 @@ publishDir = "public"
   weight = 30
   
   
+
+  # Allow raw HTML in content (enables iframe/raw HTML). This is required because
+  # Hugo's Goldmark renderer omits raw HTML by default for safety.
+  [markup]
+    [markup.goldmark]
+      [markup.goldmark.renderer]
+        unsafe = true
+
