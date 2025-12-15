@@ -21,7 +21,65 @@ Projekt svůj cíl splnil. Seznámil jsem se se základy elektrických obvodů a
 
 {{< figure src="/images/elektro_funkcni.png" caption="Hra" >}}
 
+Odkaz na Tinkercad kde se projek nachází
+https://www.tinkercad.com/things/0ciniP9VUEv-hra-na-postreh/editel?returnTo=%2Fdashboard%2Fdesigns%2Fall
 
+Celý kód :
+
+// Piny
+int ledPins[3] = {2, 3, 4};
+int buttonPins[3] = {8, 9, 10};
+
+void setup() {
+  Serial.begin(9600);
+
+  // Nastavení pinu
+  for (int i = 0; i < 3; i++) {
+    pinMode(ledPins[i], OUTPUT);
+    pinMode(buttonPins[i], INPUT_PULLUP); 
+  }
+}
+
+void loop() {
+  for (int i = 0; i < 3; i++) {
+    digitalWrite(ledPins[i], LOW); //Zhasni
+  }
+
+  delay(random(1000, 5000));  //  čekání
+
+  int sviti = random(0, 3);   //  náhodnou LED
+  digitalWrite(ledPins[sviti], HIGH);
+  unsigned long start = millis(); //Start času
+
+  int tlacitko = -1; //tlačítková proměná
+  
+  while (tlacitko == -1) { //než se zmáčkne tlačítko
+    for (int i = 0; i < 3; i++) {
+      if (digitalRead(buttonPins[i]) == LOW) {
+        tlacitko = i; //zmačknu tlačítko - dám no na Low - přepíšu 
+        break;
+      }
+    }
+  }
+
+  unsigned long reakce = millis() - start; //vysledný čas
+
+  digitalWrite(ledPins[sviti], LOW); // zhasni LED
+
+  if (tlacitko == sviti) {
+    Serial.print("Správně! Reakční čas: ");
+    Serial.print(reakce);
+    Serial.println(" ms");
+  } else {
+    Serial.print("Špatné tlačítko! Správná LED byla číslo ");
+    Serial.println(sviti + 1);
+  }
+
+  //dokud tlačítko nepustí
+  while (digitalRead(buttonPins[tlacitko]) == LOW) { }
+
+  delay(1000); //  pauza 
+}
 
 
 
