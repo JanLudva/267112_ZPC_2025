@@ -134,6 +134,13 @@ Závěrem mohu říct, že tento projekt považuji za velmi úspěšný. Nejenž
 
 Kromě prohloubení znalostí v "kutilské" elektrotechnice a 3D tisku jsem si na vlastní kůži vyzkoušel, jak probíhá skutečný inženýrský proces. Pochopil jsem, že projekty se málokdy povedou "na první dobrou", že je potřeba umět zahodit nefunkční koncept a že chyby nejsou selháním, ale nezbytným krokem k funkčnímu řešení.
 
-{{< video src="/images/Finalni_test.mp4" >}}
+<!-- Embedded video: finalni_test -->
+### Video — finální test
+
+<video controls width="100%" height="480">
+	<source src="/images/Finalni_test.mp4" type="video/mp4">
+	Your browser does not support the video tag. You can <a href="/images/Finalni_test.mp4">download the video</a> instead.
+</video>
+
 
 
