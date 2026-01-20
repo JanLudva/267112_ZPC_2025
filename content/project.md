@@ -119,7 +119,10 @@ Jelikož je přenastavení softwaru otázkou pár minut, mohu efekty měnit podl
 
 {{< figure src="/images/Program.png" caption="Program" >}}
 
-<iframe src="/finalni_test.html" width="100%" height="600" frameborder="0" allow="fullscreen"></iframe>
+<video width="100%" controls style="margin: 20px 0;">
+  <source src="/images/Finalni_test.mp4" type="video/mp4">
+  Váš prohlížeč nepodporuje přehrávání videa.
+</video>
 
 Finální úpravy (Next Steps)
 Ačkoliv je systém po funkční stránce hotový, před finální prezentací mě čekají ještě poslední detaily, které posunou prototyp blíže k hotovému produktu:
