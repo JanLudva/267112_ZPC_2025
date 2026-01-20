@@ -28,7 +28,7 @@ Cílem mého projektu je navrhnout a sestavit digitální multiefektový pedál,
 Mechanické tělo pedálu funguje na principu joysticku, který hráč ovládá nohou. Pohyby joysticku v osách X a Y jsou snímány a posílány do řídicí jednotky (Arduina). Ta následně podle těchto hodnot digitálně upravuje zvuk, který putuje z kytary do komba.
 
 
-{{< figure src="/images/Zapojeni.jpg" caption="Schéma zapojení" >}}
+{{< figure src="/images/schema.jpg" caption="Schéma zapojení" >}}
 
 Krok 1 – Vytvoření a testování zvukového obvodu
 Cíl první verze: Dostat zvuk z kytary do mikrokontroléru, zpracovat ho a poslat ven.
@@ -43,8 +43,6 @@ Tuto úpravu naštěstí není těžké vyřešit – stejný princip využívá
 Vstupní kondenzátor (10 nF): Odděluje kytaru od stejnosměrného napětí obvodu, ale nechává projít zvuk (střídavou složku).
 
 Virtuální zem (DC Bias): Vytvořil jsem bod s napětím 1,65 V (polovina napětí Teensy). To nám slouží jako "nová nula".
-
-Buffer (MCP6002): Operační zesilovač, který signál z kytary "posune" na úroveň virtuální země a impedančně ho přizpůsobí. Díky tomu má mikrokontrolér k dispozici silný a stabilní signál, se kterým může bezpečně pracovat.
 
 {{< figure src="/images/Zapojeni.jpg" caption="Zapojeni" >}}
 
