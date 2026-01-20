@@ -119,11 +119,6 @@ Jelikož je přenastavení softwaru otázkou pár minut, mohu efekty měnit podl
 
 {{< figure src="/images/Program.png" caption="Program" >}}
 
-<video width="100%" controls style="margin: 20px 0;">
-  <source src="/images/Finalni_test.mp4" type="video/mp4">
-  Váš prohlížeč nepodporuje přehrávání videa.
-</video>
-
 Finální úpravy (Next Steps)
 Ačkoliv je systém po funkční stránce hotový, před finální prezentací mě čekají ještě poslední detaily, které posunou prototyp blíže k hotovému produktu:
 
@@ -139,5 +134,6 @@ Závěrem mohu říct, že tento projekt považuji za velmi úspěšný. Nejenž
 
 Kromě prohloubení znalostí v "kutilské" elektrotechnice a 3D tisku jsem si na vlastní kůži vyzkoušel, jak probíhá skutečný inženýrský proces. Pochopil jsem, že projekty se málokdy povedou "na první dobrou", že je potřeba umět zahodit nefunkční koncept a že chyby nejsou selháním, ale nezbytným krokem k funkčnímu řešení.
 
-(sem vložit video finalni_test)
+{{< video src="/images/Finalni_test.mp4" >}}
+
 
