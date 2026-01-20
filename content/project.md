@@ -44,7 +44,7 @@ Vstupní kondenzátor (10 nF): Odděluje kytaru od stejnosměrného napětí obv
 
 Virtuální zem (DC Bias): Vytvořil jsem bod s napětím 1,65 V (polovina napětí Teensy). To nám slouží jako "nová nula".
 
-{{< figure src="/images/Zapojeni.jpg" caption="Zapojeni" >}}
+{{< figure src="/images/Zapojeni.jpg" caption="Breadbord prototyp" >}}
 
 2. Mozek operace: Teensy 4.0
 Když máme signál připravený, potřebujeme procesor s dostatečným výkonem pro real-time modulaci zvuku (bez zpoždění).
@@ -55,7 +55,7 @@ Teensy 4.0: Má obrovský výpočetní výkon (600 MHz), což je pro digitální
 
 Audio Shield: Obsahuje hardwarový kodek (SGTL5000), který se stará o převod zvuku na jedničky a nuly a zpět. Navíc k němu existuje skvělá knihovna pro mixování zvuku.
 
-{{< figure src="/images/Teensy.jpg" caption="Teensy" >}}
+{{< figure src="/images/Teensy.jpg" caption="Teensy s Audoi Sheldem" >}}
 
 
 3. Výstup: Zpátky do analogového světa
@@ -81,12 +81,12 @@ Zpočátku mě nejvíce zaujala třetí možnost. Chtěl jsem se vyhnout potenci
 
 Klíčovou částí konstrukce byl mechanismus, který vrací páčku po vychýlení zpět do středu. Navrhl jsem systém několika pružin, inspirovaný velkými joysticky z leteckých simulátorů, který musel být dostatečně kompaktní, aby se vešel do těla pedálu.
 
-{{< figure src="/images/Model_1.png" caption="Model_1" >}}
+{{< figure src="/images/Model_1.png" caption="První model" >}}
 
 2. Prototypování a slepá ulička
 Po několika dnech modelování a tisku jsem měl v ruce mechanicky funkční prototyp. Vyladil jsem rozměry pro ideální pohyblivost a otestoval pružinový návratový mechanismus. Následně jsem osadil magnety a senzory a připojil vše k Teensy.
 
-{{< figure src="/images/Pedal_1.jpg" caption="Pedal_1" >}}
+{{< figure src="/images/Pedal_1.jpg" caption="První prototyp pedálu" >}}
 
 
 Zde jsem však narazil na zásadní problém – kalibrace. Najít kompromis, kdy je konstrukce dostatečně pohyblivá, ale zároveň jsou magnety stále v ideální vzdálenosti od senzorů pro silný signál, se ukázalo jako konstrukčně neúměrně náročné. Signál byl nelineární a nespolehlivý.
@@ -98,13 +98,11 @@ Myšlenku měření magnetického pole jsem opustil a vrátil se k osvědčené 
 
 Jako inspiraci jsem využil schémata klasických analogových joysticků a jeden starší kus jsem pro studijní účely rozebral.
 
-{{< figure src="/images/Model_2.png" caption="Model_2" >}}
+{{< figure src="/images/Model_2.png" caption="Druhý model" >}}
 
 Po dalších dnech modelování a několika nepovedených 3D tiscích byl nový joystick na světě. Potenciometry v něm slouží jako nosný prvek i snímač zároveň. Konstrukce okamžitě prošla zkouškou ovladatelnosti a co je hlavní – snímání hodnot je nyní přesné a lineární.
 
-{{< figure src="/images/Pedal_2.jpg" caption="Pedal_2" >}}
-
-
+{{< figure src="/images/Pedal_2.jpg" caption="Druhý prototyp pedálu" >}}
 
 Krok 3 – Software
 Cíl: Naprogramovat Teensy tak, aby měnilo zvuk v reálném čase v závislosti na poloze joysticku.
@@ -117,7 +115,7 @@ Samotná tvorba softwaru se tak s využitím AI asistenta pro doladění detail�
 
 Jelikož je přenastavení softwaru otázkou pár minut, mohu efekty měnit podle nálady.
 
-{{< figure src="/images/Program.png" caption="Program" >}}
+{{< figure src="/images/Program.png" caption="Programovací prostředí" >}}
 
 Finální úpravy (Next Steps)
 Ačkoliv je systém po funkční stránce hotový, před finální prezentací mě čekají ještě poslední detaily, které posunou prototyp blíže k hotovému produktu:
@@ -125,7 +123,7 @@ Ačkoliv je systém po funkční stránce hotový, před finální prezentací m
 Vizuální design: Sladění barevného provedení pedálu a ovládacích prvků.
 Cable Management: Návrh a 3D tisk krytu (housingu) pro skrytí a ochranu kabeláže.
 
-{{< figure src="/images/Krabicka.jpg" caption="Krabicka" >}}
+{{< figure src="/images/Krabicka.jpg" caption="Krabička na kabeláž" >}}
 
 
 
