@@ -28,7 +28,7 @@ Cílem mého projektu je navrhnout a sestavit digitální multiefektový pedál,
 Mechanické tělo pedálu funguje na principu joysticku, který hráč ovládá nohou. Pohyby joysticku v osách X a Y jsou snímány a posílány do řídicí jednotky (Arduina). Ta následně podle těchto hodnot digitálně upravuje zvuk, který putuje z kytary do komba.
 
 
-{{< figure src="/images/schema.jpg" caption="Schéma zapojení" >}}
+{{< figure src="/images/Zapojeni.jpg" caption="Schéma zapojení" >}}
 
 Krok 1 – Vytvoření a testování zvukového obvodu
 Cíl první verze: Dostat zvuk z kytary do mikrokontroléru, zpracovat ho a poslat ven.
@@ -46,7 +46,7 @@ Virtuální zem (DC Bias): Vytvořil jsem bod s napětím 1,65 V (polovina napě
 
 Buffer (MCP6002): Operační zesilovač, který signál z kytary "posune" na úroveň virtuální země a impedančně ho přizpůsobí. Díky tomu má mikrokontrolér k dispozici silný a stabilní signál, se kterým může bezpečně pracovat.
 
-(Sem vložte své schéma nebo fotku breadboardu)
+{{< figure src="/images/Zapojeni.jpg" caption="Zapojeni" >}}
 
 2. Mozek operace: Teensy 4.0
 Když máme signál připravený, potřebujeme procesor s dostatečným výkonem pro real-time modulaci zvuku (bez zpoždění).
@@ -57,14 +57,13 @@ Teensy 4.0: Má obrovský výpočetní výkon (600 MHz), což je pro digitální
 
 Audio Shield: Obsahuje hardwarový kodek (SGTL5000), který se stará o převod zvuku na jedničky a nuly a zpět. Navíc k němu existuje skvělá knihovna pro mixování zvuku.
 
-(Sem vložte fotku Teensy)
+{{< figure src="/images/Teensy.jpg" caption="Teensy" >}}
+
 
 3. Výstup: Zpátky do analogového světa
 Posledním krokem je úprava signálu pro kytarové kombo. Zde nastává opačný problém než na vstupu – signál z Teensy (Line Out) je příliš silný (cca 3 V) a mohl by vstup komba zahltit nebo zkreslit.
 
 Řešení je prosté: Logaritmický potenciometr (100k Audio). Funguje jako klasické "Volume" kolečko. Zapojil jsem ho jako dělič napětí na výstupu, díky čemuž mohu plynule regulovat hlasitost, která jde do zesilovače.
-
-(Sem vložte fotku potenciometru nebo zapojení výstupu)
 
 Krok 2 – Tvorba ovladače
 Cíl: Vyvinout dostatečně velký a robustní joystick ovladatelný nohou, který bude posílat přesná data do Teensy.
@@ -84,12 +83,13 @@ Zpočátku mě nejvíce zaujala třetí možnost. Chtěl jsem se vyhnout potenci
 
 Klíčovou částí konstrukce byl mechanismus, který vrací páčku po vychýlení zpět do středu. Navrhl jsem systém několika pružin, inspirovaný velkými joysticky z leteckých simulátorů, který musel být dostatečně kompaktní, aby se vešel do těla pedálu.
 
-(Sem vložte obrázek prvního 3D modelu)
+{{< figure src="/images/Model_1.png" caption="Model_1" >}}
 
 2. Prototypování a slepá ulička
 Po několika dnech modelování a tisku jsem měl v ruce mechanicky funkční prototyp. Vyladil jsem rozměry pro ideální pohyblivost a otestoval pružinový návratový mechanismus. Následně jsem osadil magnety a senzory a připojil vše k Teensy.
 
-(Sem vložte fotku prototypu)
+{{< figure src="/images/Pedal_1.jpg" caption="Pedal_1" >}}
+
 
 Zde jsem však narazil na zásadní problém – kalibrace. Najít kompromis, kdy je konstrukce dostatečně pohyblivá, ale zároveň jsou magnety stále v ideální vzdálenosti od senzorů pro silný signál, se ukázalo jako konstrukčně neúměrně náročné. Signál byl nelineární a nespolehlivý.
 
@@ -100,11 +100,12 @@ Myšlenku měření magnetického pole jsem opustil a vrátil se k osvědčené 
 
 Jako inspiraci jsem využil schémata klasických analogových joysticků a jeden starší kus jsem pro studijní účely rozebral.
 
-(Sem vložte obrázek rozloženého joysticku nebo nového modelu)
+{{< figure src="/images/Model_2.png" caption="Model_2" >}}
 
 Po dalších dnech modelování a několika nepovedených 3D tiscích byl nový joystick na světě. Potenciometry v něm slouží jako nosný prvek i snímač zároveň. Konstrukce okamžitě prošla zkouškou ovladatelnosti a co je hlavní – snímání hodnot je nyní přesné a lineární.
 
-(Sem vložte fotku hotového pedálu)
+{{< figure src="/images/Pedal_2.jpg" caption="Pedal_2" >}}
+
 
 
 Krok 3 – Software
@@ -118,9 +119,20 @@ Samotná tvorba softwaru se tak s využitím AI asistenta pro doladění detail�
 
 Jelikož je přenastavení softwaru otázkou pár minut, mohu efekty měnit podle nálady.
 
-(Zde vložte snímek obrazovky vašeho kódu nebo Audio Toolu)
+{{< figure src="/images/Program.png" caption="Program" >}}
+
+Finální úpravy (Next Steps)
+Ačkoliv je systém po funkční stránce hotový, před finální prezentací mě čekají ještě poslední detaily, které posunou prototyp blíže k hotovému produktu:
+
+Vizuální design: Sladění barevného provedení pedálu a ovládacích prvků.
+Cable Management: Návrh a 3D tisk krytu (housingu) pro skrytí a ochranu kabeláže.
+
+{{< figure src="/images/Krabicka.jpg" caption="Krabicka" >}}
+
+
 
 Závěr
 Závěrem mohu říct, že tento projekt považuji za velmi úspěšný. Nejenže se mi podařilo sestavit a naprogramovat plně funkční prototyp zařízení podle vlastního návrhu, ale především jsem se mnohé naučil.
 
 Kromě prohloubení znalostí v "kutilské" elektrotechnice a 3D tisku jsem si na vlastní kůži vyzkoušel, jak probíhá skutečný inženýrský proces. Pochopil jsem, že projekty se málokdy povedou "na první dobrou", že je potřeba umět zahodit nefunkční koncept a že chyby nejsou selháním, ale nezbytným krokem k funkčnímu řešení.
+
